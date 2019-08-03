@@ -5,6 +5,7 @@
 	<!-- This skin is a Freeware. Everyone can modify and use it in other images. -->
 	<!-- BUT DO NOT REMOVE OR CHANGE THE SECOND LINE IN !!! -->
 	<!-- Do whatever you want with this skin, but don't tell it's yours, or your idea -->
+	<!-- PD1LOI-HD-NIGHT-Skin Mod by PD1LOI -->
 	<!-- Head -->
 
 	<output id="0">
@@ -12,21 +13,25 @@
 	</output>
 
 	<fonts>
-                <font filename="/usr/share/enigma2/Pd1loi-HD-night/fonts/ae_sindibad.ttf" name="ae_sindibad" scale="100" />
-                <font filename="/usr/share/enigma2/Pd1loi-HD-night/fonts/nmsbd.ttf" name="Regular2" scale="100" />
-                <font filename="/usr/share/enigma2/Pd1loi-HD-night/fonts/LiberationSans-Italic.ttf" name="Crs2" scale="100" />
-                <font filename="/usr/share/enigma2/Pd1loi-HD-night/fonts/LiberationSans-Regular.ttf" name="Regular" scale="100" />
-                <font filename="/usr/share/enigma2/Pd1loi-HD-night/fonts/hdi.ttf" name="Crs" scale="100" />
-                <font filename="/usr/share/enigma2/Pd1loi-HD-night/fonts/lcd.ttf" name="LCD" scale="100" />
-                <font filename="/usr/share/enigma2/Pd1loi-HD-night/fonts/tuxtxt.ttf" name="Console" scale="100" />
-                <font filename="/usr/share/enigma2/Pd1loi-HD-night/fonts/LADYCA__.ttf" name="Ladyca" scale="100" />
-                <font filename="/usr/share/enigma2/Pd1loi-HD-night/fonts/Megadeth.ttf" name="Megadeth" scale="100" />
-                <font filename="/usr/share/enigma2/Pd1loi-HD-night/fonts/OpenSans-Regular.ttf" name="OpenSans" scale="100" />
-                <font filename="/usr/share/enigma2/Pd1loi-HD-night/fonts/andale.ttf" name="Fixed" scale="100" />
-                <font filename="/usr/share/enigma2/Pd1loi-HD-night/fonts/LiberationSans-Regular.ttf" name="prive3" scale="100" />
-                <font filename="/usr/share/enigma2/Pd1loi-HD-night/fonts/army-digital.ttf" name="army-digital" scale="100" />
-                <font filename="/usr/share/enigma2/Pd1loi-HD-night/fonts/LiberationSans-Regular.ttf" name="LiberationSans-Regular" scale="100" />
+	    <font filename="/usr/share/fonts/nmsbd.ttf" name="Emu" replacement="0" scale="100" />
+    <font filename="/usr/share/fonts/nmsbd.ttf" name="Menu" replacement="0" scale="102" />
+		<font filename="/usr/share/enigma2/Pd1loi-HD-night/fonts/ks.ttf" name="OLED" scale="100"/>
+     <font filename="/usr/share/enigma2/Pd1loi-HD-night/fonts/NotoSans_Regular.ttf" name="Regular2" scale="100" />
+     <font filename="/usr/share/enigma2/Pd1loi-HD-night/fonts/LiberationSans-Italic.ttf" name="Crs2" scale="100" />
+     <font filename="/usr/share/enigma2/Pd1loi-HD-night/fonts/LiberationSans-Regular.ttf" name="Regular" scale="100" />
+     <font filename="/usr/share/enigma2/Pd1loi-HD-night/fonts/LiberationSans-Regular.ttf" name="LiberationSans-Regular" scale="100" />
+     <font filename="/usr/share/enigma2/Pd1loi-HD-night/fonts/hdi.ttf" name="Crs" scale="100" />
+     <font filename="/usr/share/enigma2/Pd1loi-HD-night/fonts/Time.ttf" name="Time" scale="100" />
+     <font filename="/usr/share/enigma2/Pd1loi-HD-night/fonts/lcd.ttf" name="LCD" scale="100" />
+     <font filename="/usr/share/enigma2/Pd1loi-HD-night/fonts/nmsbd.ttf" name="FdLcD" scale="100" />
+     <font filename="/usr/share/enigma2/Pd1loi-HD-night/fonts/DejaVuSans.ttf" name="DejaVuSans" scale="100" />
+     <font filename="/usr/share/enigma2/Pd1loi-HD-night/fonts/tuxtxt.ttf" name="Console" scale="100" />
+     <font filename="/usr/share/enigma2/Pd1loi-HD-night/fonts/andale.ttf" name="Fixed" scale="100" />
+     <font filename="/usr/share/enigma2/Pd1loi-HD-night/fonts/army-digital.ttf" name="army-digital" scale="100" />
+		 <font filename="/usr/share/enigma2/Pd1loi-HD-night/fonts/OpenSans-Regular.ttf" name="OpenSans" scale="100" />
 		<alias name="ChoiceList" font="Regular" size="28" height="38"/>
+		<alias name="TextNormal" font="Regular" size="28" height="38"/>
+		<alias name="ChoiceBoxDescription" font="Regular" size="22" height="25"/>
 		<alias name="FileList" font="Regular" size="28" height="38"/>
 		<alias name="FileListMulti" font="Regular" size="28" height="38"/>
 		<alias name="PluginBrowser0" font="Regular" size="32" height="76"/>
@@ -43,14 +48,15 @@
 		<alias name="PartnerBoxChannelList1" font="Regular" size="28"/>
 		<alias name="PartnerBoxChannelEPGList0" font="Regular" size="32" height="38"/>
 		<alias name="PartnerBoxChannelEPGList1" font="Regular" size="24"/>
-		<alias name="VirtualKeyboard" font="Regular" size="42" height="68"/>
+		<alias name="VirtualKeyBoard" font="DejaVuSans" size="42" height="68" />
 		<alias name="HelpMenuList" font="Regular" size="30" height="45"/>
 		<alias name="HelpMenuListExt0" font="Regular" size="32" height="75"/>
 		<alias name="HelpMenuListExt1" font="Regular" size="28"/>
-		<alias name="Dreamexplorer" font="Regular" size="30" height="45"/>
+		<alias name="Dreamexplorer" font="Regular" size="28" height="38"/>
 		<alias name="PlayList" font="Regular" size="28" height="38"/>
-        <alias name="Weermenu" font="Regular" size="28" height="38"/>
-        <alias name="EasyMedia" font="Regular" size="32"/>
+		<alias name="FallbackReceiverList0" font="Regular" size="28" height="38"/>
+		<alias name="FallbackReceiverList1" font="Regular" size="28"/> 
+		<alias name="iptvlistitem" font="Regular" size="32" height="40"/>
         </fonts>	
 
 	<!-- Colors -->
@@ -187,7 +193,7 @@
     <color name="white" value="#00f0f0f0" />
     <color name="yellow" value="#00ffc000" />
     <color name="yellowtransparent" value="#084b4b00" />
-        <color name="toptemplatecolor" value="#000D0F16"/>
+    <color name="toptemplatecolor" value="#000D0F16"/>
 		<color name="basictemplatecolor" value="#00000020"/>
 		<color name="selectorcolor" value="#00000030"/>
 		<color name="background" value="#00000000"/>
@@ -223,6 +229,7 @@
 		<color name="un4a00a0a" value="#04a00a0a"/>
 		<color name="uncccccc" value="#00cccccc"/>
 		<color name="white" value="#00f0f0f0"/>
+		<color name="backgroundColor" value="#00ffffff"/>
 		<color name="yellow" value="#00F9C731"/>
 		<color name="yellowsoft" value="#00CCAC68"/>
 		<color name="yellowtransparent" value="#084b4b00"/>
@@ -231,6 +238,7 @@
 	<parameters>
 		<parameter name="FallbackReceiverListName" value="8,2,225,38"/>
 		<parameter name="FallbackReceiverListIP" value="300,2,225,38"/>
+		<parameter name="OpenUitzendingGemist" value="68,3,1000,30"/>
 	</parameters>
 
         <switchpixmap>
@@ -284,6 +292,7 @@
 	<ePixmap pixmap="Pd1loi-HD-night/infobar/vol_box.png" position="0,303" size="30,24" alphatest="on" zPosition="4"/>
 	</screen>
 	
+	
 	<screen name="Mute" title="Mute" position="center,15" size="45,45" backgroundColor="transparent" zPosition="10" flags="wfNoBorder">
 	<ePixmap pixmap="Pd1loi-HD-night/infobar/mute.png" position="0,0" size="48,48" alphatest="on" zPosition="0"/>
 	</screen>
@@ -293,7 +302,9 @@
     <widget name="status" position="0,0" size="300,53" backgroundColor="transparent" transparent="1" font="Regular;39" borderColor="black" borderWidth="2" valign="center" halign="center"/>
   </screen>
   
- 
+  
+
+
         <!-- Overscan -->
         
         <screen name="OverscanWizard" position="fill" flags="wfNoBorder">
@@ -387,38 +398,42 @@
 		<panel name="InfoBarTemplate"/>
 	</screen>
 
-	<screen name="SecondInfoBarSimple" title="Second InfoBar" position="fill" flags="wfNoBorder">
-		<eLabel position="fill" backgroundColor="transpBlack" zPosition="0"/>
-                <ePixmap pixmap="Pd1loi-HD-night/border/bottom_bg6.png" position="959,20" size="2,800" />
-                <widget source="session.Event_Now" render="Label" position="30,20" size="915,36" backgroundColor="secondBG" transparent="1" zPosition="1" foregroundColor="secondFG" noWrap="1" font="Regular;33" halign="left">
-			<convert type="EventName">NameNow</convert>
-		</widget>
-		<widget source="session.Event_Now" render="Label" position="30,68" size="765,33" font="Regular;30" halign="left" foregroundColor="blue" backgroundColor="secondBG" transparent="1" zPosition="1">
-			<convert type="EventName">Genre</convert>
-		</widget>
-		<widget source="session.Event_Now" render="Label" position="645,68" size="300,33" font="Regular;30" halign="right" foregroundColor="blue" backgroundColor="secondBG" transparent="1" zPosition="1">
-			<convert type="EventName">SmallRating</convert>
-		</widget>
-		<widget source="session.Event_Now" render="Label" position="30,118" size="915,702" font="Regular;38" halign="block" zPosition="1" transparent="1">
-			<convert type="EventName">FullDescription</convert>
-		</widget>
-		<widget source="session.Event_Next" render="Label" position="975,20" size="915,39" backgroundColor="secondBG" transparent="1" zPosition="1" foregroundColor="secondFG" noWrap="1" font="Regular;33" halign="left">
-			<convert type="EventName">NameNext</convert>
-		</widget>
-		<widget source="session.Event_Next" render="Label" position="975,68" size="765,33" font="Regular;30" halign="left" foregroundColor="blue" backgroundColor="secondBG" transparent="1" zPosition="1">
-			<convert type="EventName">Genre</convert>
-		</widget>
-		<widget source="session.Event_Next" render="Label" position="1590,68" size="300,33" font="Regular;30" halign="right" foregroundColor="blue" backgroundColor="secondBG" transparent="1" zPosition="1">
-			<convert type="EventName">SmallRating</convert>
-		</widget>
-		<widget source="session.Event_Next" render="Label" position="975,118" size="915,702" font="Regular;38" halign="block" zPosition="1" transparent="1">
-			<convert type="EventName">FullDescription</convert>
-		</widget>
-		<panel name="InfoBarTemplate"/>
-	</screen>
+<!--SecondInfoBarSimple-->
 
-	<screen name="SecondInfoBar" title="Second InfoBar" position="fill" flags="wfNoBorder">
-     <eLabel position="fill" backgroundColor="transpBlack" zPosition="0" />
+<screen name="SecondInfoBarSimple" title="Second InfoBar" position="fill" flags="wfNoBorder">
+  <eLabel position="fill" backgroundColor="transpBlack" zPosition="0" />
+  <ePixmap pixmap="Pd1loi-HD-night/border/bottom_bg6.png" position="959,20" size="2,800" />
+  <widget source="session.Event_Now" render="Label" position="30,20" size="915,36" backgroundColor="secondBG" transparent="1" zPosition="1" foregroundColor="secondFG" noWrap="1" font="Regular;33" halign="left">
+    <convert type="EventName">NameNow</convert>
+  </widget>
+  <widget source="session.Event_Now" render="Label" position="30,68" size="765,33" font="Regular;30" halign="left" foregroundColor="blue" backgroundColor="secondBG" transparent="1" zPosition="1">
+    <convert type="EventName">Genre</convert>
+  </widget>
+  <widget source="session.Event_Now" render="Label" position="645,68" size="300,33" font="Regular;30" halign="right" foregroundColor="blue" backgroundColor="secondBG" transparent="1" zPosition="1">
+    <convert type="EventName">SmallRating</convert>
+  </widget>
+  <widget source="session.Event_Now" render="Label" position="30,110" size="915,710" font="Regular;38" halign="block" zPosition="1" transparent="1" foregroundColor="unffffff">
+    <convert type="EventName">FullDescription</convert>
+  </widget>
+  <widget source="session.Event_Next" render="Label" position="975,20" size="915,39" backgroundColor="secondBG" transparent="1" zPosition="1" foregroundColor="secondFG" noWrap="1" font="Regular;33" halign="left">
+    <convert type="EventName">NameNext</convert>
+  </widget>
+  <widget source="session.Event_Next" render="Label" position="975,68" size="765,33" font="Regular;30" halign="left" foregroundColor="blue" backgroundColor="secondBG" transparent="1" zPosition="1">
+    <convert type="EventName">Genre</convert>
+  </widget>
+  <widget source="session.Event_Next" render="Label" position="1590,68" size="300,33" font="Regular;30" halign="right" foregroundColor="blue" backgroundColor="secondBG" transparent="1" zPosition="1">
+    <convert type="EventName">SmallRating</convert>
+  </widget>
+  <widget source="session.Event_Next" render="Label" position="975,110" size="915,710" font="Regular;38" halign="block" zPosition="1" transparent="1" foregroundColor="unffffff">
+    <convert type="EventName">FullDescription</convert>
+  </widget>
+  <panel name="InfoBarTemplate" />
+</screen>
+
+<!--SecondInfoBar-->
+
+<screen name="SecondInfoBar" title="Second InfoBar" position="fill" flags="wfNoBorder">
+  <eLabel position="fill" backgroundColor="transpBlack" zPosition="0" />
   <widget source="session.CurrentService" render="Label" position="30,20" size="1440,135" transparent="1" zPosition="1" font="Regular;30" valign="top" halign="left">
     <convert type="PliExtraInfo">All</convert>
   </widget>
@@ -448,7 +463,7 @@
   <widget source="session.Event_Now" render="Label" position="645,210" size="300,33" font="Regular;30" halign="right" foregroundColor="orange" backgroundColor="secondBG" transparent="1" zPosition="1">
     <convert type="EventName">SmallRating</convert>
   </widget>
-  <widget source="session.Event_Now" render="Label" position="30,260" size="915,560" font="Regular;38" halign="block" zPosition="1" transparent="1" foregroundColor="unc6e0f3">
+  <widget source="session.Event_Now" render="Label" position="30,250" size="915,570" font="Regular;38" halign="block" zPosition="1" transparent="1" foregroundColor="unc6e0f3">
     <convert type="EventName">FullDescription</convert>
   </widget>
   <widget source="session.Event_Next" render="Label" position="975,162" size="915,39" backgroundColor="secondBG" transparent="1" zPosition="1" foregroundColor="secondFG" noWrap="1" font="Regular;33" halign="left">
@@ -460,10 +475,11 @@
   <widget source="session.Event_Next" render="Label" position="1590,210" size="300,33" font="Regular;30" halign="right" foregroundColor="orange" backgroundColor="secondBG" transparent="1" zPosition="1">
     <convert type="EventName">SmallRating</convert>
   </widget>
-  <widget source="session.Event_Next" render="Label" position="975,260" size="915,560" font="Regular;38" halign="block" zPosition="1" transparent="1" foregroundColor="unc6e0f3">
+  <widget source="session.Event_Next" render="Label" position="975,250" size="915,570" font="Regular;38" halign="block" zPosition="1" transparent="1" foregroundColor="unc6e0f3">
     <convert type="EventName">FullDescription</convert>
+	<panel name="InfoBarTemplate" />
   </widget>
-  <panel name="InfoBarTemplate" />
+  
 </screen>
 
 	<!-- Movie Player Infobar -->
@@ -509,32 +525,32 @@
 
 	<!-- Channel,EPG,EventInfo -->
 
-	<screen name="ChannelSelection" title="Channel Selection" position="fill" flags="wfNoBorder">
-		<panel name="SelectionTemplate" />
-		<panel name="KeyInfoTemplate"/>
-		<panel name="KeyMenuInfoTemplate" />
+<screen name="ChannelSelection" title="Channel Selection" position="fill" flags="wfNoBorder">
+  <panel name="SelectionTemplate" />
+  <panel name="KeyInfoTemplate" />
+  <panel name="KeyMenuInfoTemplate" />
   <widget name="list" position="780,108" size="1110,900" selectionPixmap="Pd1loi-HD-night/buttons/sel4.png" itemHeight="50" transparent="1" serviceNumberFont="Regular;36" scrollbarMode="showOnDemand" serviceInfoFont="Crs2;36" serviceNameFont="Regular;36" serviceItemHeight="50" picServiceEventProgressbar="PLi-FullNightHD/window/progress.png" progressbarHeight="15" progressBarWidth="70" progressPercentWidth="80" colorEventProgressbarBorder="un33333a" fieldMargins="15" nonplayableMargins="15" colorEventProgressbarBorderSelected="darkgrey" colorServiceDescription="#4FFF86" progressbarBorderWidth="3" foregroundColorServiceNotAvail="#656565" backgroundColorMarked="#656565" colorServiceDescriptionFallback="#4FFF86" colorServiceDescriptionSelectedFallback="#4FFF86" colorFallbackItem="#aaaaaa" colorServiceSelectedFallback="#4FFF86" />
   <widget source="ServiceEvent" render="Label" position="30,529" size="720,30" foregroundColor="unffff00" font="Regular;26" valign="center" halign="center" transparent="1" zPosition="1">
     <convert type="TransponderInfo">NoRoot</convert>
   </widget>
-  <widget source="ServiceEvent" render="Label" position="30,562" size="90,32" transparent="1" foregroundColor="foreground" font="Regular;28" halign="left">
+  <widget source="ServiceEvent" render="Label" position="30,562" size="90,32" transparent="1" foregroundColor="foreground" font="Regular;28" halign="left" valign="top">
     <convert type="EventTime">StartTime</convert>
     <convert type="ClockToText">Format:%H:%M</convert>
   </widget>
   <widget source="ServiceEvent" render="Progress" position="120,572" size="540,10" pixmap="Pd1loi-HD-night/window/progress1.png" transparent="0" backgroundColor="un33333a" borderWidth="0">
     <convert type="EventTime">Progress</convert>
   </widget>
-  <widget source="ServiceEvent" render="Label" position="660,562" size="90,32" transparent="1" foregroundColor="foreground" font="Regular;28" halign="right">
+  <widget source="ServiceEvent" render="Label" position="660,562" size="90,32" transparent="1" foregroundColor="foreground" font="Regular;28" halign="right" valign="top">
     <convert type="EventTime">EndTime</convert>
     <convert type="ClockToText">Format:%H:%M</convert>
   </widget>
-  <ePixmap pixmap="Pd1loi-HD-night/border/bottom_bg5.png" position="30,598" size="720,3" />
+  <ePixmap pixmap="Pd1loi-HD-night/border/bottom_bg5.png" position="30,595" size="720,3" />
   <ePixmap pixmap="Pd1loi-HD-night/border/bottom_bg5.png" position="30,870" size="720,3" />
-  <widget source="ServiceEvent" render="RunningText2" position="30,643" size="720,220" transparent="1" font="Regular;32" halign="block" foregroundColor="unc6e0f3" options="movetype=running,startpoint=0,direction=top,steptime=60,repeat=5,startdelay=7000,wrap">
+  <widget source="ServiceEvent" render="RunningText2" position="30,643" size="720,220" transparent="1" font="Regular;32" halign="left" foregroundColor="unc6e0f3" options="movetype=running,startpoint=0,direction=top,steptime=60,repeat=5,startdelay=7000,wrap">
     <convert type="EventName">FullDescription</convert>
   </widget>
   <widget source="ServiceEvent" render="NextEpgInfo" position="30,880" size="720,130" transparent="1" foregroundColor="unffff00" noWrap="1" font="Regular;29" NumberOfItems="3" />
-  <widget source="ServiceEvent" render="Label" position="30,605" size="720,35" transparent="1" foregroundColor="unffff00" font="Regular;32" halign="left">
+  <widget source="ServiceEvent" render="Label" position="30,602" size="720,37" transparent="1" foregroundColor="unffff00" font="Regular;32" halign="left">
     <convert type="EventName">Name</convert>
   </widget>
 </screen>		
@@ -548,7 +564,7 @@
 
 	<!-- EPG Stuff -->
 
-	<screen name="EPGSelection" position="fill" flags="wfNoBorder">
+	<screen name="EPGSelection" position="fill" title="EPGSelection" flags="wfNoBorder">
 		<panel name="SelectionTemplate"/>
 		<panel name="KeyMenuTemplate"/>
 		<panel name="KeyInfoTemplate"/>
@@ -585,47 +601,36 @@
 	</screen>
 
 	<screen name="EventView" title="Eventview" position="fill" flags="wfNoBorder">
-		<panel name="SelectionTemplate"/>
-		<panel name="KeyMenuTemplate"/>
-		<widget source="Event" render="RunningText2" options="movetype=running,startpoint=0,direction=top,steptime=50,repeat=5,startdelay=20000,wrap" position="780,100" size="1110,912" backgroundColor="background" transparent="1" font="Regular;35" halign="left">
-                <convert type="EventName">ExtendedDescription</convert>
-                </widget>
-		<widget source="session.CurrentService" render="Label" position="30,525" size="720,35" foregroundColor="unffff00" font="Regular;30" valign="center" halign="center" transparent="1" zPosition="1">
-			<convert type="TransponderInfo"/>
-		</widget>
-		<widget name="channel" position="30,592" size="720,45" transparent="1" font="Regular;33" halign="left"/>
-		<widget name="datetime" position="30,652" size="720,45" transparent="1" font="Regular;33" halign="left"/>
-		<widget name="duration" position="30,712" size="720,45" transparent="1" font="Regular;33" halign="left"/>
-		<widget source="session.Event_Now" render="Label" position="135,712" size="285,45" transparent="1" zPosition="1" foregroundColor="foreground" font="Regular;32" halign="right">
-			<convert type="EventTime">Remaining</convert>
-			<convert type="RemainingToText">InMinutes</convert>
-		</widget>
-		<widget source="session.Event_Now" render="Label" position="30,772" size="720,35" transparent="1" zPosition="1" foregroundColor="blue" font="Regular;32" halign="left">
-			<convert type="EventName">Genre</convert>
-		</widget>
-		<widget source="session.Event_Now" render="Label" position="30,832" size="720,35" transparent="1" zPosition="1" foregroundColor="blue" font="Regular;32" halign="left">
-			<convert type="EventName">Rating</convert>
-		</widget>
-		<!--widget source="Event" render="Label" position="30,902" size="60,45" font="Regular;24" backgroundColor="secondBG" zPosition="1" transparent="1" foregroundColor="foreground" halign="left">
-			<convert type="EventName">Pdc</convert>
-		</widget>
-		<widget source="Event" render="Label" position="100,902" size="150,45" font="Regular;24" backgroundColor="secondBG" zPosition="1" transparent="1" foregroundColor="foreground" halign="left">
-			<convert type="EventName">PdcTime</convert>
-		</widget-->
-		<widget source="session.Event_Next" render="Label" position="30,975" size="720,35" font="Regular;30" halign="left" foregroundColor="secondFG" transparent="1">
-			<convert type="EventName">NameNext</convert>
-		</widget>
-	</screen>
+  <panel name="SelectionTemplate" />
+  <panel name="KeyMenuTemplate" />
+  <widget name="epg_description" position="780,100" size="1110,912" transparent="1" font="Regular;36" halign="left" />
+  <widget source="session.CurrentService" render="Label" position="30,525" size="720,35" foregroundColor="unffff00" font="Regular;30" valign="center" halign="center" transparent="1" zPosition="1">
+    <convert type="TransponderInfo" />
+  </widget>
+  <widget name="channel" position="30,592" size="720,45" transparent="1" font="Regular;33" halign="left" />
+  <widget name="datetime" position="30,652" size="720,45" transparent="1" font="Regular;33" halign="left" />
+  <widget name="duration" position="30,712" size="720,45" transparent="1" font="Regular;33" halign="left" />
+  <widget source="session.Event_Now" render="Label" position="135,712" size="285,45" transparent="1" zPosition="1" foregroundColor="foreground" font="Regular;32" halign="right">
+    <convert type="EventTime">Remaining</convert>
+    <convert type="RemainingToText">InMinutes</convert>
+  </widget>
+  <widget source="session.Event_Now" render="Label" position="30,772" size="720,35" transparent="1" zPosition="1" foregroundColor="blue" font="Regular;32" halign="left">
+    <convert type="EventName">Genre</convert>
+  </widget>
+  <widget source="session.Event_Now" render="Label" position="30,832" size="720,35" transparent="1" zPosition="1" foregroundColor="blue" font="Regular;32" halign="left">
+    <convert type="EventName">Rating</convert>
+  </widget>
+<widget source="Service" render="NextEpgInfo" position="30,943" size="720,64" transparent="1" font="Regular;28" noWrap="1" NumberOfItems="2" noLabel="1" foregroundColor="secondFG" timeColor="grey" numOfSpaces="2" />
+</screen>
 
 	<screen name="EPGSelectionMulti" title="EPG Selection" position="fill" flags="wfNoBorder">
 		<panel name="SelectionTemplate"/>
 		<panel name="KeyMenuInfoTemplate"/>
 		<widget name="date" position="780,100" size="1110,38" font="Regular;34" transparent="1" valign="center" halign="center"/>
-		<widget name="list" position="780,210" size="1110,798" itemHeight="38" selectionPixmap="Pd1loi-HD-night/buttons/sel4.png" setEventItemFont="Regular;28" setEventTimeFont="Regular;22"
-						setColWidths="350,150" setColGap="20" setTimeWidth="135" setIconDistance="10" backgroundColor="background" transparent="1" scrollbarMode="showOnDemand"/>
-<widget source="Event" render="RunningText2" position="30,562" size="720,450" transparent="1" font="Regular;30" halign="block" foregroundColor="unc6e0f3" options="movetype=running,startpoint=0,direction=top,steptime=60,repeat=5,startdelay=7000,wrap">
-    <convert type="EventName">ExtendedDescription</convert>
-  </widget>
+                <widget name="list" position="780,210" size="1110,798" itemHeight="38" selectionPixmap="Pd1loi-HD-night/buttons/sel4.png" setEventItemFont="Regular;32" setEventTimeFont="Regular;28" setColWidths="350,150" setColGap="20" setTimeWidth="135" setIconDistance="10" backgroundColor="background" transparent="1" scrollbarMode="showOnDemand" />
+                <widget source="Event" render="RunningText2" position="30,562" size="720,450" transparent="1" font="Regular;30" halign="block" foregroundColor="unc6e0f3" options="movetype=running,startpoint=0,direction=top,steptime=60,repeat=5,startdelay=7000,wrap">
+                <convert type="EventName">ExtendedDescription</convert>
+                </widget>
 		<widget name="now_button" pixmap="Pd1loi-HD-night/border/epg_off.png" position="810,145" zPosition="2" size="225,50" alphatest="blend"/>
 		<widget name="now_button_sel" pixmap="Pd1loi-HD-night/border/epg_now_on.png" position="810,145" zPosition="3" size="225,50" alphatest="blend"/>
 		<widget name="now_text" position="810,150" size="225,50" backgroundColor="background" zPosition="4" transparent="1" text="NOW" font="Regular;26" valign="center" halign="center"/>
@@ -697,7 +702,7 @@
 			<convert type="EventName">SmallRating</convert>
 		</widget>
 		<widget name="timeline_text" position="30,555" size="1860,42" font="Regular;26" foregroundColor="#00e5b243" backgroundColor="#000000" transparent="1"/>
-		<widget name="list" position="30,598" size="1860,420" itemHeight="75" ServiceFont="Regular;28" transparent="1" scrollbarMode="showNever"
+		<widget name="list" selectionPixmap="Pd1loi-HD-night/buttons/sel4.png" position="30,598" size="1860,420" itemHeight="75" ServiceFont="Regular;28" transparent="1" scrollbarMode="showNever"
 			EntryBackgroundColor="background" EventNamePadding="6" ServiceNamePadding="6" EntryBorderColor="#cccccc" EntryFont="Regular;28"
 			ServiceBorderVerWidth="3" EventBorderVerWidth="3" RecIconSize="32" IconXPadding="6" IconYPadding="4"/>
 		<widget name="timeline0" pixmap="Pd1loi-HD-night/window/timeline.png" position="0,593" size="1,422" zPosition="1"/>
@@ -718,7 +723,7 @@
 			<convert type="ClockToText">Date</convert>
 		</widget>
 		<widget name="timeline_text" position="30,155" size="1860,42" font="Regular;26" foregroundColor="#00e5b243" backgroundColor="#000000" transparent="1"/>
-		<widget name="list" position="30,198" size="1860,817" itemHeight="75" ServiceFont="Regular;28" transparent="1" scrollbarMode="showNever"
+		<widget name="list" selectionPixmap="Pd1loi-HD-night/buttons/sel4.png" position="30,198" size="1860,817" itemHeight="75" ServiceFont="Regular;28" transparent="1" scrollbarMode="showNever"
 			EntryBackgroundColor="background" EventFontPadding="6" EventNamePadding="6" EntryBorderColor="#cccccc" EntryFont="Regular;28"
 			ServiceBorderVerWidth="3" EventBorderVerWidth="3" RecIconSize="32" IconXPadding="6" IconYPadding="4"/>
 		<widget name="timeline0" pixmap="Pd1loi-HD-night/window/timeline.png" position="0,193" size="1,824" zPosition="1"/>
@@ -733,7 +738,7 @@
 	<screen name="GraphMultiEpgSetup" position="fill" title="Electronic Program Guide Setup" flags="wfNoBorder">
 		<panel name="PigTemplate"/>
 		<panel name="CancelOKTemplate"/>
-		<widget name="config" position="780,100" size="1110,912" itemHeight="38" font="Regular;28" scrollbarMode="showOnDemand"/>
+		<widget name="config" selectionPixmap="Pd1loi-HD-night/buttons/sel4.png" position="780,100" size="1110,912" itemHeight="45" font="Regular;30" scrollbarMode="showOnDemand"/>
 	</screen>
 
 	<screen name="SelectBouquet" position="fill" title="Choose bouquet" flags="wfNoBorder">
@@ -829,9 +834,9 @@
 			<convert type="ValueRange">2,2</convert>
 			<convert type="ConditionalShowHide"/>
 		</widget>
-		<widget name="network" position="135,105" size="675,45" valign="center" zPosition="2" font="Regular;33" transparent="1"/>
-		<widget name="transponder" position="135,157" size="675,45" valign="center" zPosition="2" font="Regular;33" transparent="1"/>
-		<widget name="scan_progress" position="30,270" size="810,22" pixmap="skin_default/progress_big.png" borderWidth="2" borderColor="#cccccc"/>
+		<widget name="network" position="135,105" size="705,45" valign="center" zPosition="2" font="Regular;33" transparent="1"/>
+		<widget name="transponder" position="135,157" size="705,45" valign="center" zPosition="2" font="Regular;33" transparent="1"/>
+		<widget name="scan_progress" position="30,270" size="810,15" pixmap="Pd1loi-HD-night/infobar/progress_big.png" borderWidth="2" borderColor="#cccccc"/>
 		<widget name="scan_state" position="30,307" zPosition="2" size="810,70" valign="top" font="Regular;30" transparent="1"/>
 		<widget name="pass" position="30,380" size="810,45" valign="center" font="Regular;33" transparent="1"/>
 		<widget name="servicelist" position="870,100" size="1020,912" selectionPixmap="Pd1loi-HD-night/buttons/sel4.png" itemHeight="38" font="Regular;28" selectionDisabled="1" scrollbarMode="showOnDemand"/>
@@ -850,7 +855,7 @@
 		<panel name="BasicTemplate"/>
 		<widget name="frontend" pixmap="Pd1loi-HD-night/icons/scan-s.png" position="30,105" size="96,96" zPosition="2" transparent="1" alphatest="on"/>
 		<widget name="scan_state" position="30,270" zPosition="2" size="810,45" valign="center" font="Regular;30" transparent="1"/>
-		<widget name="scan_progress" position="30,322" size="810,22" pixmap="skin_default/progress_big.png" borderWidth="2" borderColor="#cccccc"/>
+		<widget name="scan_progress" position="30,322" size="810,15" pixmap="Pd1loi-HD-night/infobar/progress_big.png" borderWidth="2" borderColor="#cccccc"/>
 	</screen>
 	
 	<!-- CableScan -->
@@ -867,7 +872,7 @@
 		<panel name="BasicTemplate"/>
 		<widget name="frontend" pixmap="Pd1loi-HD-night/icons/scan-c.png" position="30,105" size="96,96" zPosition="2" transparent="1" alphatest="on"/>
 		<widget name="scan_state" position="30,270" zPosition="2" size="810,45" valign="center" font="Regular;30" transparent="1"/>
-		<widget name="scan_progress" position="30,322" size="810,22" pixmap="skin_default/progress_big.png" borderWidth="2" borderColor="#cccccc"/>
+		<widget name="scan_progress" position="30,322" size="810,15" pixmap="Pd1loi-HD-night/infobar/progress_big.png" borderWidth="2" borderColor="#cccccc"/>
 	</screen>
 
 	<!-- RecordPathSettings -->
@@ -894,7 +899,7 @@
 	<screen name="ChoiceBox" title="" position="fill" flags="wfNoBorder">
 		<panel name="PigTemplate"/>
 		<panel name="TextTemplate"/>
-		<widget name="list" position="780,100" size="1110,912" selectionPixmap="Pd1loi-HD-night/buttons/sel4.png" scrollbarMode="showOnDemand"/>
+		<widget name="list" position="780,100" font="Regular;36" itemHeight="45" size="1110,912" selectionPixmap="Pd1loi-HD-night/buttons/sel4.png" scrollbarMode="showOnDemand"/>
 	</screen>
 
 	<!-- SortbyChoiceBox -->
@@ -956,14 +961,27 @@
 		<eLabel position="825,459" size="990,3" backgroundColor="grey"/>
 		<widget name="ServiceList" position="885,472" size="900,450" backgroundColor="background" zPosition="1" transparent="1" scrollbarMode="showOnDemand"/>
 		<widget source="ServiceList_info" render="Label" position="825,472" size="990,450" backgroundColor="background" zPosition="2" transparent="1" font="Regular;33"/>
-	</screen>
+	</screen> 
+	
+	<!-- SelectImage -->
 
+	<screen name="SelectImage" title="" position="fill" flags="wfNoBorder">
+		<panel name="ChoiceBox"/>
+	</screen>	
+	
+	
 	<!-- Console -->
+  
 
 	<screen name="Console" title="Command execution" position="fill" flags="wfNoBorder">
-    <panel name="BasicTemplate"/>
-    <widget name="text" position="30,100" size="1860,912" itemHeight="40" font="Fixed;34" transparent="1" foregroundColor="myblue" scrollbarMode="showOnDemand"/>
-  </screen>
+		<panel name="BasicTemplate"/>
+		<widget name="text" position="30,100" size="1860,912" itemHeight="40" font="Fixed;32" transparent="1" foregroundColor="myblue" scrollbarMode="showOnDemand"/>
+	</screen>
+
+	<screen name="Console_Pig" title="Command execution" position="fill" flags="wfNoBorder">
+		<panel name="PigTemplate"/>
+		<widget name="text" position="825,100" size="1035,912" itemHeight="40" font="Fixed;32" transparent="1" foregroundColor="myblue" scrollbarMode="showOnDemand"/>
+	</screen>
 
 	<!-- NumberZap -->
 
@@ -976,13 +994,13 @@
 	<!-- VideoMode -->
 
 	<screen name="VideoMode" title="VideoMode" position="127,67" size="600,75" backgroundColor="transparent" flags="wfNoBorder">
-		<widget name="videomode" position="0,0" size="570,60" backgroundColor="transparent" transparent="1" font="Regular;39" borderColor="black" borderWidth="2" valign="center" halign="left"/>
+		<widget name="videomode" position="0,0" size="600,75" backgroundColor="transparent" transparent="1" font="Regular;39" borderColor="black" borderWidth="1" valign="center" halign="center"/>
 	</screen>
 
 	<!-- PVR State -->
 
 	<screen name="PVRState" position="192,172" size="225,45" backgroundColor="transparent" zPosition="2" flags="wfNoBorder">
-		<widget name="state" position="0,0" size="225,45" backgroundColor="transparent" borderWidth="2" font="Regular;37" borderColor="black" halign="left"/>
+		<widget name="state" position="0,0" size="225,45" foregroundColor="unffff00" backgroundColor="transparent" borderWidth="2" font="Regular;37" borderColor="black" halign="left"/>
 	</screen>
 
 	<!-- Timeshift state -->
@@ -1090,7 +1108,7 @@
 
 	<!-- Movie Selection -->
 
-	<screen name="MovieSelection" title="Movie Selection" position="fill" flags="wfNoBorder">
+	<screen name="MovieSelection" position="fill" flags="wfNoBorder">
 		<panel name="SelectionTemplate"/>
 		<panel name="KeyInfoTemplate"/>
 		<panel name="KeyMenuInfoTemplate"/>
@@ -1199,7 +1217,6 @@
 
 	<screen name="ChannelContextMenu" position="fill" flags="wfNoBorder">
 		<panel name="PigTemplate"/>
-		<eLabel text="Channellist menu" position="30,7" size="1830,75" foregroundColor="orange1" backgroundColor="secondBG" transparent="1" zPosition="1" font="Regular;36" valign="center" halign="left"/>
 		<widget name="menu" selectionPixmap="Pd1loi-HD-night/buttons/sel4.png" position="780,100" size="1110,912" scrollbarMode="showOnDemand"/>
 	</screen>
 
@@ -1215,7 +1232,6 @@
 
 	<screen name="MovieContextMenu" position="fill" flags="wfNoBorder">
 		<panel name="PigTemplate"/>
-		<eLabel text="Movielist menu" position="30,7" size="1830,75" foregroundColor="orange1" backgroundColor="secondBG" transparent="1" zPosition="1" font="Regular;36" valign="center" halign="left"/>
 		<widget name="menu" position="780,100" size="1110,912" selectionPixmap="Pd1loi-HD-night/buttons/sel4.png" scrollbarMode="showOnDemand"/>
 	</screen>
 
@@ -1495,7 +1511,7 @@
 
 	<screen name="RestoreScreen" title="Restore is running" position="fill" flags="wfNoBorder">
 		<panel name="PigTemplate"/>
-		<widget name="config" position="780,100" size="1110,912" itemHeight="38" font="Regular;28" transparent="1" scrollbarMode="showOnDemand"/>
+		<widget name="config" selectionPixmap="Pd1loi-HD-night/buttons/sel4.png" position="780,100" size="1110,912" itemHeight="38" font="Regular;28" transparent="1" scrollbarMode="showOnDemand"/>
 	</screen>
 
 	<!-- Restore -->
@@ -1660,22 +1676,21 @@
 		<panel name="KeyInfoTemplate"/>
 		<panel name="KeyTextTemplate"/>
 		<widget name="config" position="780,105" size="1110,418" itemHeight="38" font="Regular;28" selectionPixmap="Pd1loi-HD-night/buttons/sel4.png" scrollbarMode="showOnDemand"/>
-		<widget source="introduction" render="Label" position="780,619" size="1110,40" font="Regular;33" halign="center"/>
-		<widget source="IPtext" render="Label" position="780,675" size="225,37" zPosition="1" foregroundColor="grey" font="Regular;31" halign="left"/>
-		<widget source="Netmasktext" render="Label" position="780,720" size="225,37" zPosition="1" foregroundColor="grey" font="Regular;31" halign="left"/>
-		<widget source="Gatewaytext" render="Label" position="780,765" size="225,37" zPosition="1" foregroundColor="grey" font="Regular;31" halign="left"/>
+		<widget source="introduction" render="Label" position="780,619" size="1110,40" font="Regular;33" halign="center" foregroundColor="unffff00"/>
+		<widget source="IPtext" render="Label" position="780,675" size="225,37" zPosition="1" foregroundColor="red" font="Regular;31" halign="left"/>
+		<widget source="Netmasktext" render="Label" position="780,720" size="225,37" zPosition="1" foregroundColor="red" font="Regular;31" halign="left"/>
+		<widget source="Gatewaytext" render="Label" position="780,765" size="225,37" zPosition="1" foregroundColor="red" font="Regular;31" halign="left"/>
 		<widget source="IP" render="Label" position="1020,675" size="300,37" zPosition="1" font="Regular;28"/>
 		<widget source="Mask" render="Label" position="1020,720" size="300,37" zPosition="1" font="Regular;28"/>
 		<widget source="Gateway" render="Label" position="1020,765" size="300,37" zPosition="1" font="Regular;28"/>
-		<widget source="DNS1text" render="Label" position="1400,675" size="225,37" transparent="1" zPosition="1" foregroundColor="grey" font="Regular;31" valign="left" halign="left"/>
-		<widget source="DNS2text" render="Label" position="1400,720" size="225,37" transparent="1" zPosition="1" foregroundColor="grey" font="Regular;31" valign="left" halign="left"/>
+		<widget source="DNS1text" render="Label" position="1400,675" size="225,37" transparent="1" zPosition="1" foregroundColor="red" font="Regular;31" valign="left" halign="left"/>
+		<widget source="DNS2text" render="Label" position="1400,720" size="225,37" transparent="1" zPosition="1" foregroundColor="red" font="Regular;31" valign="left" halign="left"/>
 		<widget source="DNS1" render="Label" position="1640,675" size="300,37" transparent="1" zPosition="1" font="Regular;31" valign="center" halign="left"/>
 		<widget source="DNS2" render="Label" position="1640,720" size="300,37" transparent="1" zPosition="1" font="Regular;31" valign="center" halign="left"/>
-
-		<widget source="Adaptertext" render="Label" position="780,825" size="400,34" transparent="1" zPosition="10" foregroundColor="grey" font="Regular;30" halign="left"/>
+		<widget source="Adaptertext" render="Label" position="780,825" size="400,34" transparent="1" zPosition="10" foregroundColor="red" font="Regular;30" halign="left"/>
 		<widget source="Adapter" render="Label" position="1020,825" size="600,34" transparent="1" zPosition="10" font="Regular;30" halign="left"/>
 		<widget source="introduction2" render="Label" position="780,975" size="1110,34" transparent="1" zPosition="10" font="Regular;30" valign="center" halign="center"/>
-		<eLabel text="Virtual Keyboard" position="678,1030" size="370,38" backgroundColor="black" zPosition="1" transparent="1" font="Regular;34" halign="left"/>
+		<eLabel text="Virtual Keyboard" position="678,1030" size="370,38" backgroundColor="black" zPosition="1" transparent="1" font="Regular;34" halign="left" foregroundColor="cyan"/>
 		<widget name="HelpWindow" position="75,615" size="1,1" transparent="1" zPosition="1" alphatest="on"/>
 	</screen>
 
@@ -1917,7 +1932,7 @@
 	<screen name="InputDeviceSetup" title="Input device setup" position="fill" flags="wfNoBorder">
 		<panel name="PigTemplate"/>
 	    <panel name="KeyInfoTemplate"/>
-		<widget name="config" position="780,100" size="1110,912" itemHeight="38" font="Regular;28" scrollbarMode="showOnDemand"/>
+		<widget name="config" selectionPixmap="Pd1loi-HD-night/buttons/sel4.png" position="780,100" size="1110,912" itemHeight="38" font="Regular;28" scrollbarMode="showOnDemand"/>
 		<widget source="introduction" render="Label" position="780,975" size="1110,34" backgroundColor="darkgrey" shadowColor="black" shadowOffset="-2,-2" zPosition="1" transparent="1" font="Regular;30" halign="center"/>
 	</screen>
 
@@ -1958,13 +1973,13 @@
 
 	<screen flags="wfNoBorder" name="ToplevelPPanel" position="fill" title="Toplevel PPanel">
 		<panel name="PigTemplate"/>
-		<widget name="nodelist" position="780,100" size="1110,912" itemHeight="38" font="Regular;28" scrollbarMode="showOnDemand"/>
+		<widget name="nodelist" selectionPixmap="Pd1loi-HD-night/buttons/sel4.png" position="780,100" size="1110,912" itemHeight="38" font="Regular;28" scrollbarMode="showOnDemand"/>
 		<widget name="helptext" position="30,560" size="720,390" font="Regular;30" valign="center" halign="left"/>
 	</screen>
 
 	<screen flags="wfNoBorder" name="PPanel" position="fill" title="PPanel">
 		<panel name="PigTemplate"/>
-		<widget name="nodelist" position="780,100" size="1110,912" itemHeight="38" font="Regular;28" scrollbarMode="showOnDemand"/>
+		<widget name="nodelist" selectionPixmap="Pd1loi-HD-night/buttons/sel4.png" position="780,100" size="1110,912" itemHeight="38" font="Regular;28" scrollbarMode="showOnDemand"/>
 		<widget name="helptext" position="30,560" size="720,390" font="Regular;30" valign="center" halign="left"/>
 	</screen>
 
@@ -1981,7 +1996,7 @@
 	<screen flags="wfNoBorder" name="Execute" position="fill" title="PPanel Entry">
 		<panel name="BasicTemplate"/>
 		<panel name="KeyInfoTemplate"/>
-		<widget name="linelist" position="30,100" size="1860,912" itemHeight="38" font="Fixed;28" transparent="1" foregroundColor="white" scrollbarMode="showOnDemand"/>
+		<widget name="linelist" selectionPixmap="Pd1loi-HD-night/buttons/sel4.png" position="30,100" size="1860,912" itemHeight="38" font="Fixed;28" transparent="1" foregroundColor="white" scrollbarMode="showOnDemand"/>
 	</screen>
 
 	<!-- TextBox -->
@@ -2019,7 +2034,7 @@
 		<widget name="ErrorPixmap" pixmap="skin_default/icons/input_error.png" position="10,10" size="80,80" alphatest="blend"/>
 		<widget name="QuestionPixmap" pixmap="skin_default/icons/input_question.png" position="10,10" size="80,80" alphatest="blend"/>
 		<widget name="InfoPixmap" pixmap="skin_default/icons/input_info.png" position="10,10" size="80,80" alphatest="blend"/>
-		<widget name="list" position="150,150" selectionPixmap="Pd1loi-HD-night/buttons/sel41.png" size="720,570" itemHeight="38" font="Regular;28"/>
+		<widget name="list" position="150,150" selectionPixmap="Pd1loi-HD-night/buttons/sel42.png" size="720,570" itemHeight="38" font="Regular;28"/>
 	<applet type="onLayoutFinish">
 from enigma import eSize, ePoint
 if self.timerRunning:
@@ -2067,7 +2082,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y() + (or
 	<screen name="TimeDateInput" title="Time/Date Input" position="fill" flags="wfNoBorder" >
 		<panel name="PigTemplate"/>
 		<panel name="CancelOKTemplate"/>
-		<widget name="config" position="780,100" size="1110,912" itemHeight="38" font="Regular;28" transparent="1" scrollbarMode="showOnDemand"/>
+		<widget name="config" selectionPixmap="Pd1loi-HD-night/buttons/sel4.png" position="780,100" size="1110,912" itemHeight="38" font="Regular;28" transparent="1" scrollbarMode="showOnDemand"/>
 	</screen>
 
 	<!-- Language selection -->
@@ -2092,7 +2107,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y() + (or
 	<screen name="SkinSelector" position="fill" flags="wfNoBorder">
 		<panel name="SelectionTemplate"/>
 		<widget name="Preview" position="165,600" size="420,315" alphatest="on"/>
-		<widget name="SkinList" position="780,100" size="1110,912" itemHeight="38" selectionPixmap="Pd1loi-HD-night/buttons/sel4.png" font="Regular;28" scrollbarMode="showOnDemand"/>
+		<widget name="SkinList" position="780,100" size="1110,912" itemHeight="45" selectionPixmap="Pd1loi-HD-night/buttons/sel4.png" font="Regular;32" scrollbarMode="showOnDemand"/>
 		<widget source="introduction" render="Label" position="780,975" size="1110,34" zPosition="1" transparent="1" font="Regular;30" halign="center"/>
 	</screen>
 
@@ -2115,14 +2130,14 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y() + (or
 
 	<!-- AutoDiseqC -->
 
-	<screen name="AutoDiseqc" title="Auto DiseqC" position="fill" flags="wfNoBorder">
-		<panel name="BasicTemplate"/>
-		<panel name="KeyInfoTemplate"/>
-		<ePixmap pixmap="Pd1loi-HD-night/icons/scan-s.png" position="360,25" size="96,96" zPosition="2" transparent="1" alphatest="on"/>
-		<widget source="statusbar" render="Label" position="30,105" size="720,90" zPosition="10" halign="left" valign="center" font="Regular;33" transparent="1" shadowColor="black" shadowOffset="-1,-1"/>
-		<widget source="tunerstatusbar" render="Label" position="30,240" size="720,45" zPosition="10" halign="left" valign="center" font="Regular;33" transparent="1" shadowColor="black" shadowOffset="-1,-1"/>
-		<widget name="config" position="30,315" size="720,450" itemHeight="38" font="Regular;28" scrollbarMode="showOnDemand"/>
-	</screen>
+        <screen name="AutoDiseqc" title="Auto DiseqC" position="fill" flags="wfNoBorder">
+                <panel name="BasicTemplate" />
+                <panel name="KeyInfoTemplate" />
+                <ePixmap pixmap="Pd1loi-HD-night/icons/scan-s.png" position="32,105" size="96,96" zPosition="2" transparent="1" alphatest="on" />
+                <widget source="statusbar" render="Label" position="30,214" size="720,90" zPosition="10" halign="left" valign="center" font="Regular;33" transparent="1" shadowColor="black" shadowOffset="-1,-1" foregroundColor="unffff00" />
+                <widget source="tunerstatusbar" render="Label" position="30,326" size="720,45" zPosition="10" halign="left" valign="center" font="Regular;33" transparent="1" shadowColor="black" shadowOffset="-1,-1" foregroundColor="cyan1" />
+                <widget name="config" position="30,393" size="720,450" itemHeight="38" font="Regular;28" selectionPixmap="Pd1loi-HD-night/buttons/sel104.png" scrollbarMode="showOnDemand" foregroundColor="secondFG" />
+        </screen>
 
 	<!-- Nim setup -->
 
@@ -2130,7 +2145,8 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y() + (or
 		<panel name="PigTemplate"/>
 		<panel name="KeyInfoTemplate"/>
 		<widget name="config" position="780,100" size="1110,912" selectionPixmap="Pd1loi-HD-night/buttons/sel4.png" itemHeight="38" font="Regular;28" scrollbarMode="showOnDemand"/>
-	</screen>
+                <widget name="description" position="30,570" size="720,300" itemHeight="38" font="Regular;30" valign="top" />
+        </screen>
 
 	<!-- Positioner setup -->
 
@@ -2203,7 +2219,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y() + (or
 		<convert type="FrontendInfo">SNR</convert>
 	</widget>
 	
-	<widget source="Frontend" render="Progress" pixmap="Pd1loi-HD-night/infobar/bar_big.png" position="30,240" size="1860,75" borderWidth="1" borderColor="un808888">
+	<widget source="Frontend" render="Progress" pixmap="Pd1loi-HD-night/infobar/bar_big1.png" position="30,240" size="1860,75" borderWidth="1" borderColor="un808888">
 		<convert type="FrontendInfo">AGC</convert>
 	</widget>
 	<eLabel text="AGC:" position="37,240" size="150,75" valign="center" backgroundColor="darkgrey" borderWidth="1" transparent="1" font="Regular;52" foregroundColor="blue" />
@@ -2226,7 +2242,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y() + (or
 		<convert type="FrontendInfo">BER</convert>
 	</widget>
 
-	<widget text="LOCK" source="Frontend" render="FixedLabel" position="30,900" size="465,135" font="Crs; 108" halign="left" foregroundColor="green" backgroundColor="darkgrey" transparent="1">
+	<widget text="LOCK" source="Frontend" render="FixedLabel" position="30,884" size="465,135" font="Crs; 108" halign="left" foregroundColor="green" backgroundColor="darkgrey" transparent="1">
 		<convert type="FrontendInfo">LOCK</convert>
 		<convert type="ConditionalShowHide" />
 	</widget>
@@ -2332,7 +2348,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y() + (or
                 <ePixmap pixmap="Pd1loi-HD-night/skin_default/vkey_text.png" position="930,235" size="816,78" zPosition="-4" alphatest="on" />
 		<widget name="header" position="930,120" size="810,39" transparent="1" noWrap="1" font="Regular;33" valign="top" />
 		<widget name="text" position="933,257" size="810,51" transparent="1" noWrap="1" font="Regular;38" valign="center" halign="right" />
-		<widget name="list" position="930,375" size="816,343" selectionDisabled="1" transparent="1" />
+		<widget name="list" selectionPixmap="Pd1loi-HD-night/buttons/sel4.png" position="930,375" size="816,343" selectionDisabled="1" transparent="1" />
 	</screen>
 
 	<!-- AC3LipSyncSetup -->
@@ -2370,9 +2386,9 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y() + (or
 		<panel name="PigTemplate"/>
 		<panel name="KeyInfoTemplate"/>
 		<panel name="KeyMenuTemplate"/>
-		<widget name="config" position="780,105" size="1110,300" selectionPixmap="Pd1loi-HD-night/buttons/sel4.png" itemHeight="38" font="Regular;28" scrollbarMode="showOnDemand"/>
-		<widget name="status" position="780,495" size="1110,210" font="Regular;28"/>
-		<widget name="statusbar" position="780,750" size="1110,30" font="Regular;28"/>
+		<widget name="config" position="780,105" size="1110,300" selectionPixmap="Pd1loi-HD-night/buttons/sel4.png" itemHeight="40" font="Regular;32" scrollbarMode="showOnDemand"/>
+		<widget name="status" position="780,495" size="1110,210" font="Regular;32"/>
+		<widget name="statusbar" position="780,750" size="1110,30" font="Regular;32"/>
 	</screen>
 
 	<!-- PicturePlayer -->
@@ -2475,11 +2491,11 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y() + (or
 
 	<!-- RDS InfoDisplay -->
 
-  <screen name="RdsInfoDisplay" position="center,90" size="1920,300" backgroundColor="transparent" zPosition="-2" flags="wfNoBorder">
-  <widget position="22,12" size="1875,135" backgroundColor="transparent" transparent="1" zPosition="1" foregroundColor="unffff00" borderWidth="4" font="Regular;46" borderColor="black" valign="center" halign="center" name="RadioText" />
-  <widget position="22,156" size="1875,135" backgroundColor="transparent" transparent="1" zPosition="1" foregroundColor="unffff00" borderWidth="4" font="Regular;46" borderColor="black" valign="center" halign="center" name="RtpText" />
+<screen name="RdsInfoDisplay" position="0,780" size="1920,300" backgroundColor="transparent" zPosition="-2" flags="wfNoBorder">
+   <widget position="22,53" size="1875,100" backgroundColor="transparent" transparent="1" zPosition="1" foregroundColor="white" borderWidth="4" font="Regular; 46" borderColor="black" valign="center" halign="center" name="RadioText" />
+  <widget position="22,157" size="1875,100" backgroundColor="transparent" transparent="1" zPosition="1" foregroundColor="white" borderWidth="4" font="Regular; 46" borderColor="black" valign="center" halign="center" name="RtpText" />
   <widget position="0,0" size="0,0" name="RassLogo" />
-  </screen>
+</screen>
 	
 
 
@@ -2499,10 +2515,10 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y() + (or
 
 	<!-- QuickSubtitlesConfigMenu -->
 
-	<screen name="QuickSubtitlesConfigMenu" position="20,30" size="724,462" title="Subtitle settings" backgroundColor="#7f000000" flags="wfNoBorder">
-		<widget name="config" position="7,7" size="710,418" selectionPixmap="Pd1loi-HD-night/buttons/sel4.png" itemHeight="38" font="Regular;24" zPosition="1" transparent="1" valign="center" />
-		<widget name="videofps" position="10,428" size="710,30" backgroundColor="secondBG" transparent="1" zPosition="1" font="Regular;24" valign="center" halign="left" foregroundColor="blue"/>
-	</screen>
+        <screen name="QuickSubtitlesConfigMenu" position="20,30" size="724,462" title="Subtitle settings" backgroundColor="#7f000000" flags="wfNoBorder">
+        <widget name="config" position="7,7" size="710,418" selectionPixmap="Pd1loi-HD-night/buttons/sel4.png" itemHeight="38" font="Regular;24" zPosition="1" transparent="1" valign="center" />
+        <widget name="videofps" position="10,428" size="710,30" backgroundColor="secondBG" transparent="1" zPosition="1" font="Regular;24" valign="center" halign="left" foregroundColor="blue"/>
+        </screen>
 	
 	 <!-- QuickSubtitlesClearRests -->
 	<screen name="QuickSubtitlesClearRests" position="20,30" size="724,204" title="Subtitle settings" backgroundColor="#7f000000" flags="wfNoBorder">
@@ -2586,31 +2602,4 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y() + (or
 			<convert type="ClientsStreaming">INFO_RESOLVE_SHORT</convert>
 		</widget>
 	</screen>
-	
-	 <!-- SelectImage -->
-  <screen name="SelectImage" title="" position="fill" flags="wfNoBorder">
-    <panel name="ChoiceBox" />
-  </screen>
-	
-  <!-- Flash_OnLine -->
-	
-  <screen name="FlashOnline" position="fill" title="FlashOnline" flags="wfNoBorder">
-    <panel name="PigTemplate" />
-    <panel name="ButtonTemplate" />
-    <widget name="info-local" position="780,108" size="1110,466" halign="left" foregroundColor="unc6e0f3" font="Regular; 32" />
-    <widget name="info-online" position="780,578" size="1110,180" halign="left" font="Regular; 30" foregroundColor="unffff00" />
-  </screen>
-	
-  <screen name="doFlashImage" position="fill" title="FlashOnline" flags="wfNoBorder">
-    <panel name="PigTemplate" />
-    <panel name="ButtonTemplate" />
-    <widget name="imageList" position="780,108" size="1110,466" halign="left" scrollbarMode="showOnDemand" itemHeight="38" selectionPixmap="Pd1loi-HD-night/buttons/sel4.png" foregroundColor="unc6e0f3" font="Regular; 32" />
-  </screen>
-	
-  <screen name="DeviceBrowser" position="fill" title="FlashOnline" flags="wfNoBorder">
-    <panel name="PigTemplate" />
-    <panel name="ButtonTemplate" />
-    <widget name="filelist" position="780,108" size="1110,466" halign="left" scrollbarMode="showOnDemand" itemHeight="38" selectionPixmap="Pd1loi-HD-night/buttons/sel4.png" foregroundColor="unc6e0f3" font="Regular; 32" />
-    <widget name="message" position="780,108" size="1110,466" halign="left" foregroundColor="unc6e0f3" font="Regular; 32" />
-  </screen>
 </skin>
